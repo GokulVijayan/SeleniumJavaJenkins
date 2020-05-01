@@ -1,0 +1,8 @@
+/bin/
+/test-output/
+/Results/
+/target/classes
+pom.xml
+/target/test-classes
+/Tess4j
+/target/

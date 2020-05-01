@@ -1,0 +1,60 @@
+{
+	"TestReportSteps": [
+		{
+			"testObjective": "Verify that Landtrack Web Application login functionality is working as expected.",
+			"stepName": "1",
+			"stepDescription": "Enter username.",
+			"expectedResult": "User is able to enter username.",
+			"actualResultPass": "User was able to enter username.",
+			"actualResultFail": "User was not able to enter username."
+		},
+		{
+			"testObjective": "",
+			"stepName": "2",
+			"stepDescription": "Enter password.",
+			"expectedResult": "User is able to enter password.",
+			"actualResultPass": "User was able to enter password.",
+			"actualResultFail": "User was not able to enter password."
+		},
+		{
+			"testObjective": "",
+			"stepName": "3",
+			"stepDescription": "Capture Screenshot.",
+			"expectedResult": "User is able to capture screenshot.",
+			"actualResultPass": "User was able to capture screenshot.",
+			"actualResultFail": "User was not able to capture screenshot."
+		},
+		{
+			"testObjective": "",
+			"stepName": "4",
+			"stepDescription": "Click on login button.",
+			"expectedResult": "User is able to click login button.",
+			"actualResultPass": "User was able to click login  button.",
+			"actualResultFail": "User was not able to click login button."
+		},
+		{
+			"testObjective": "",
+			"stepName": "5",
+			"stepDescription": "Wait until visibility of Profile Name",
+			"expectedResult": "User is able to wait until visibility of profile namee:",
+			"actualResultPass": "User was able to wait until visibility of profile name:",
+			"actualResultFail": "User was not able to wait until visibility of profile name:"
+		},
+		{
+			"testObjective": "",
+			"stepName": "6",
+			"stepDescription": "Wait until visibility of Loader",
+			"expectedResult": "User is able to wait until visibility of Loader:",
+			"actualResultPass": "User was able to wait until visibility of Loader:",
+			"actualResultFail": "User was not able to wait until visibility of Loader:"
+		},
+		{
+			"testObjective": "",
+			"stepName": "7",
+			"stepDescription": "Capture screenshot.",
+			"expectedResult": "User is able to capture screenshot.",
+			"actualResultPass": "User was able to capture screenshot.",
+			"actualResultFail": "User was not able to capture screenshot."
+		}
+	]
+}
