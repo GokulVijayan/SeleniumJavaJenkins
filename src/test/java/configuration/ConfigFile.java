@@ -10,6 +10,7 @@ import org.json.JSONObject;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import utility.Constant;
@@ -49,10 +50,14 @@ public class ConfigFile {
 	public static void initializeTest( )
 	{
 
+			
+			ChromeOptions chromeOptions= new ChromeOptions();
+			chromeOptions.setBinary("C:\\Users\\gokul.vijayan\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
 			System.setProperty("webdriver.chrome.driver", getChromeDriverPath());
-
+			driver = new ChromeDriver(chromeOptions); 
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
+			
 		
 			System.out.println("Chrome browser launched successfully");
 	}
