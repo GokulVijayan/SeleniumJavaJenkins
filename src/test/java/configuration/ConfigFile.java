@@ -55,7 +55,6 @@ public class ConfigFile {
 			chromeOptions.setBinary("C:\\Users\\gokul.vijayan\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
 			System.setProperty("webdriver.chrome.driver", getChromeDriverPath());
 			driver = new ChromeDriver(chromeOptions); 
-			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			
 		
